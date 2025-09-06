@@ -1,11 +1,10 @@
-
 import React from 'react';
-import type { RadioStation } from '../types';
-import { PlayIcon } from './icons/PlayIcon';
-import { PauseIcon } from './icons/PauseIcon';
-import { VolumeUpIcon } from './icons/VolumeUpIcon';
-import { VolumeOffIcon } from './icons/VolumeOffIcon';
-import { LoadingSpinner } from './icons/LoadingSpinner';
+import type { RadioStation } from '../types.ts';
+import { PlayIcon } from './icons/PlayIcon.tsx';
+import { PauseIcon } from './icons/PauseIcon.tsx';
+import { VolumeUpIcon } from './icons/VolumeUpIcon.tsx';
+import { VolumeOffIcon } from './icons/VolumeOffIcon.tsx';
+import { LoadingSpinner } from './icons/LoadingSpinner.tsx';
 
 interface RadioPlayerProps {
   station: RadioStation;

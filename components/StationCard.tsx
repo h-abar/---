@@ -1,9 +1,8 @@
-
 import React from 'react';
-import type { RadioStation } from '../types';
-import { PlayIcon } from './icons/PlayIcon';
-import { PauseIcon } from './icons/PauseIcon';
-import { VolumeWaveIcon } from './icons/VolumeWaveIcon';
+import type { RadioStation } from '../types.ts';
+import { PlayIcon } from './icons/PlayIcon.tsx';
+import { PauseIcon } from './icons/PauseIcon.tsx';
+import { VolumeWaveIcon } from './icons/VolumeWaveIcon.tsx';
 
 interface StationCardProps {
   station: RadioStation;

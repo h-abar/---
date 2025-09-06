@@ -1,7 +1,6 @@
-
 import React from 'react';
-import type { RadioStation } from '../types';
-import StationCard from './StationCard';
+import type { RadioStation } from '../types.ts';
+import StationCard from './StationCard.tsx';
 
 interface StationListProps {
   stations: RadioStation[];

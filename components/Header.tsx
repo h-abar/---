@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { RadioIcon } from './icons/RadioIcon';
+import { RadioIcon } from './icons/RadioIcon.tsx';
 
 const Header: React.FC = () => {
   return (

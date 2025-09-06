@@ -1,10 +1,9 @@
-
 import React, { useState, useRef, useCallback, useEffect } from 'react';
-import { STATIONS } from './constants';
-import type { RadioStation } from './types';
-import Header from './components/Header';
-import StationList from './components/StationList';
-import RadioPlayer from './components/RadioPlayer';
+import { STATIONS } from './constants.ts';
+import type { RadioStation } from './types.ts';
+import Header from './components/Header.tsx';
+import StationList from './components/StationList.tsx';
+import RadioPlayer from './components/RadioPlayer.tsx';
 
 const App: React.FC = () => {
   const [currentStation, setCurrentStation] = useState<RadioStation | null>(null);

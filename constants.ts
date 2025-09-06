@@ -1,5 +1,4 @@
-
-import type { RadioStation } from './types';
+import type { RadioStation } from './types.ts';
 
 export const STATIONS: RadioStation[] = [
   { id: 1, name: "إذاعة القرآن الكريم - السعودية", streamUrl: "https://Qurango.net/radio/tarateel" },

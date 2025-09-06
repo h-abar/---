@@ -1,0 +1,5 @@
+{
+  "name": "Islamic Radio Stations",
+  "description": "A web application to listen to a collection of Islamic radio stations from around the world. Stream Quran recitations, lectures, and nasheeds.",
+  "requestFramePermissions": []
+}
